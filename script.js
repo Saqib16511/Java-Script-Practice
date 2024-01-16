@@ -43,7 +43,18 @@ if (!a < b){
  var a = ["hi","hello","hey"];
  var b = "welcome";
  if (a == b){
-    document.write("if condition is true this will be print")
+    document.write("if condition is true this will be print<br>")
  }else{
-    document.write("if condition is false this will be print")
+    document.write("if condition is false this will be print<br>")
  }
+//  if else if Statement
+var per = 67;
+if (per >= 80 && per <= 100){
+    document.write("Grade A+");
+}else if(per >= 60 && per < 100){
+    document.write("Grade B");
+}else if (per >= 40 && per < 100){
+    document.write("Grade C");
+}else{
+    document.write("fail");
+}
