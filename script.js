@@ -68,3 +68,13 @@ document.write(b)
 var a = 419;
 b = "your value is " + (a > 500? "true":"false");
 document.write("<br>" + b);
+
+// Alert Box 
+// alert("This Is An alert box!");
+
+var a = 45;
+if (a > 89){
+    alert("this is true condition")
+}else{
+    alert("this is false condition")
+}
