@@ -72,9 +72,32 @@ document.write("<br>" + b);
 // Alert Box 
 // alert("This Is An alert box!");
 
-var a = 45;
-if (a > 89){
-    alert("this is true condition")
-}else{
-    alert("this is false condition")
+// var a = 45;
+// if (a > 89){
+//     alert("this is true condition")
+// }else{
+//     alert("this is false condition")
+// }
+
+// Comfirm Box
+//  confirm("Press a button!")
+
+// Prompt Box
+
+
+// backgroung color change by if condition 
+var body = document.querySelector("body");
+body.style.background = "blue";
+var btn = document.getElementById("btn");
+btn.style.background = "crimson";
+btn.style.fontSize = "20px";
+btn.style.color = "white";
+
+btn.addEventListener('click', () =>{
+    if(body.style.backgroundColor == "white"){
+        body.style.backgroundColor = 'black';
+    }else{
+        body.style.backgroundColor = 'white' ;
+    }
 }
+);
