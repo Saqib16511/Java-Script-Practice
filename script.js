@@ -58,3 +58,13 @@ if (per >= 80 && per <= 100){
 }else{
     document.write("fail");
 }
+    document.write("<br>")
+
+// Ternary Operator 
+var a = 419;
+b = (a > 100)? "true": "false";
+document.write(b)
+
+var a = 419;
+b = "your value is " + (a > 500? "true":"false");
+document.write("<br>" + b);
