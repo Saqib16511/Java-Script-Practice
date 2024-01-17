@@ -101,9 +101,19 @@ btn.addEventListener('click', () =>{
     }
 }
 );
+// document.write("<br>")
+// // Function
+// function myFunction(){
+//     document.write('hello JS');
+// }
+// myFunction()
 document.write("<br>")
-// Function
-function myFunction(){
-    document.write('hello JS');
-}
-myFunction()
+// Function Parameters
+// function practice( right,left){
+//     document.write("practice" + right + left)
+// }
+// practice("hello","world")
+ function myfac(one,two){
+    document.write("you are my" + one)
+ }
+ myfac(" friend ")
