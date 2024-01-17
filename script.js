@@ -139,8 +139,20 @@ document.write("<br>")
 // }
 
 // LOOP
-var a = 1;
-while(a <= 10){
-    document.write("hello welcome <br>");
-    a = a + 1;
+// var a = 1;
+// while(a <= 10){
+//     document.write("hello welcome <br>");
+//     a = a + 1;
+// }
+
+// DO WHILE LOOP
+// var a = 1
+// do{
+//     document.write("DO WHILE LOOP <br>");
+//     a = a + 1;
+// }while(a <= 10);
+
+// FOR LOOP
+for(var a = 1; a <= 10; a++){
+    document.write("hello hello hello <br>");
 }
