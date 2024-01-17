@@ -113,7 +113,22 @@ document.write("<br>")
 //     document.write("practice" + right + left)
 // }
 // practice("hello","world")
- function myfac(one,two){
-    document.write("you are my" + one)
- }
- myfac(" friend ")
+//  function myfac(one,two){
+//     document.write("you are my" + one)
+//  }
+//  myfac(" friend ")
+
+// function sumFunc(one,two,three){
+//     var result = one + two - three ;
+//     return result;
+// }
+
+// var c = sumFunc(3,8,20);
+// document.write(c);
+
+function div(one,two,three,four,five){
+    var b = (one + two + three + four) / five;
+    return b; 
+}
+var c = div(2,3,1,5,2) * 2
+document.write(c)
