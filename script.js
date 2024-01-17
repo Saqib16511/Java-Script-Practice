@@ -101,3 +101,9 @@ btn.addEventListener('click', () =>{
     }
 }
 );
+document.write("<br>")
+// Function
+function myFunction(){
+    document.write('hello JS');
+}
+myFunction()
