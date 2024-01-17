@@ -86,21 +86,21 @@ document.write("<br>" + b);
 
 
 // backgroung color change by if condition 
-var body = document.querySelector("body");
-body.style.background = "blue";
-var btn = document.getElementById("btn");
-btn.style.background = "crimson";
-btn.style.fontSize = "20px";
-btn.style.color = "white";
+// var body = document.querySelector("body");
+// body.style.background = "blue";
+// var btn = document.getElementById("btn");
+// btn.style.background = "crimson";
+// btn.style.fontSize = "20px";
+// btn.style.color = "white";
 
-btn.addEventListener('click', () =>{
-    if(body.style.backgroundColor == "white"){
-        body.style.backgroundColor = 'black';
-    }else{
-        body.style.backgroundColor = 'white' ;
-    }
-}
-);
+// btn.addEventListener('click', () =>{
+//     if(body.style.backgroundColor == "white"){
+//         body.style.backgroundColor = 'black';
+//     }else{
+//         body.style.backgroundColor = 'white' ;
+//     }
+// }
+// );
 // document.write("<br>")
 // // Function
 // function myFunction(){
@@ -126,9 +126,14 @@ document.write("<br>")
 // var c = sumFunc(3,8,20);
 // document.write(c);
 
-function div(one,two,three,four,five){
-    var b = (one + two + three + four) / five;
-    return b; 
+// function div(one,two,three,four,five){
+//     var b = (one + two + three + four) / five;
+//     return b; 
+// }
+// var c = div(2,3,1,5,2) * 2
+// document.write(c)
+
+var a = document.getElementById('hh');
+function change(){
+    a.style.color = 'yellow';
 }
-var c = div(2,3,1,5,2) * 2
-document.write(c)
