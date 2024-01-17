@@ -133,7 +133,14 @@ document.write("<br>")
 // var c = div(2,3,1,5,2) * 2
 // document.write(c)
 
-var a = document.getElementById('hh');
-function change(){
-    a.style.color = 'yellow';
+// var a = document.getElementById('hh');
+// function change(){
+//     a.style.color = 'yellow';
+// }
+
+// LOOP
+var a = 1;
+while(a <= 10){
+    document.write("hello welcome <br>");
+    a = a + 1;
 }
