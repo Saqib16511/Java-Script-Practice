@@ -153,6 +153,22 @@ document.write("<br>")
 // }while(a <= 10);
 
 // FOR LOOP
-for(var a = 1; a <= 10; a++){
-    document.write("hello hello hello <br>");
+// for(var a = 1; a <= 10; a++){
+//     document.write("hello hello hello <br>");
+// }
+
+// for(var a = 1; a <= 5; a++){
+
+//     for(b = 1; b <= a; b++){
+//         document.write(b + " ")
+//     }
+//     document.write("<br>")
+    
+// }
+
+for(var a = 5; a >= 1; a--){
+    for(var b = a; b >= 1; b--){
+        document.write(b)
+    }
+    document.write("<br>")
 }
