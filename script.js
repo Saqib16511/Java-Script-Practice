@@ -107,7 +107,7 @@ document.write("<br>" + b);
 //     document.write('hello JS');
 // }
 // myFunction()
-document.write("<br>")
+// document.write("<br>")
 // Function Parameters
 // function practice( right,left){
 //     document.write("practice" + right + left)
@@ -166,9 +166,28 @@ document.write("<br>")
     
 // }
 
-for(var a = 5; a >= 1; a--){
-    for(var b = a; b >= 1; b--){
-        document.write(b)
-    }
-    document.write("<br>")
-}
+// for(var a = 5; a >= 1; a--){
+//     for(var b = a; b >= 1; b--){
+//         document.write(b)
+//     }
+//     document.write("<br>")
+// }
+
+// array --------
+// var ary = [
+//     [ 'sara' , 'muskan' , 'nimra' , 'faiza' ],
+//     [ 'saba' , 'mariyam' , 'nayab' , 'fozia' ],
+//     [ 'sehar' , 'mahnoor' , 'neelam' , 'farwah' ],
+//     [ 'sobia' , 'mehak' , 'noreen' , 'fazeela' ],
+// ]
+// for(var a = 0; a < 4; a++){
+//     for(var b = 0; b < 4; b++){
+//         document.write(ary[a][b] + " ");
+//     }
+//     document.write("<br>")
+// }
+
+// Array Sort
+var a = ["1","2","3","4","5"]
+a.sort()
+document.write()
