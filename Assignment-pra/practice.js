@@ -111,11 +111,16 @@
 //     }
 //     document.write("<br>")
 // }
-document.write("<br>")
-for(var a = 2; a <= 8 ; a++ ){
-    for(var b = 1; b <= a; b++){
-        document.write(a + b)
-    }
-    document.write("<br>");
-}
+// document.write("<br>")
+// for(var a = 2; a <= 8 ; a++ ){
+//     for(var b = 1; b <= a; b++){
+//         document.write(a + b)
+//     }
+//     document.write("<br>");
+// }
+
+// ARRAY SLICE METHOD
+// var a = ["one","two","three","four","five","six"];
+//    var b = a.slice(4,5);
+//     document.write(b);
 
