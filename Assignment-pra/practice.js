@@ -148,3 +148,19 @@
 //     function checkAdult(ages){
 //         return ages >= 18;
 //     }
+
+// ARRAY FINF METHGOD
+// var ages = ["4","3","13","18","11","9"];
+//    var b = ages.find(checkAdult);
+//     document.write(b);
+//     function checkAdult(ages){
+//         return ages >= 11;
+//     }
+
+// ARRAY FINDINDEX METHOD
+//     var ages = ["4","3","13","18","11","9"];
+//    var b = ages.findIndex(checkAdult);
+//     document.write(b);
+//     function checkAdult(ages){
+//         return ages >= 11;
+//     }
