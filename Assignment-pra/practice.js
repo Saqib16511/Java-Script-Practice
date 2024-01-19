@@ -164,3 +164,12 @@
 //     function checkAdult(ages){
 //         return ages >= 11;
 //     }
+
+
+// ARRAY FILTER METHOD
+//     var ages = ["4","23","13","18","11","9"];
+//    var b = ages.filter(checkAdult);
+//     document.write(b);
+//     function checkAdult(ages){
+//         return ages >= 18;
+//     }
