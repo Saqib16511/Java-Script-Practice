@@ -131,7 +131,12 @@
 //     document.write(a);
 
 
-// // ARRAY INDEXOF AND LASTINDEX
+// // ARRAY INDEXOF AND LASTINDEX METHOD
 // var a = ["one","two","three","four","five","six"];
 //    var b = a.indexOf("five");
 //     document.write(b);
+
+// ARRAY INCLUDES METHOD
+var a = ["one","two","three","four","five","six"];
+   var b = a.includes("five");
+    document.write(b);
