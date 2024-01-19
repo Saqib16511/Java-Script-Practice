@@ -124,3 +124,14 @@
 //    var b = a.slice(4,5);
 //     document.write(b);
 
+
+// ARRAY SPLICE METHOD
+// var a = ["one","two","three","four","five","six"];
+//    var b = a.splice(2,0,"hello");
+//     document.write(a);
+
+
+// // ARRAY INDEXOF AND LASTINDEX
+// var a = ["one","two","three","four","five","six"];
+//    var b = a.indexOf("five");
+//     document.write(b);
