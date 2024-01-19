@@ -137,6 +137,14 @@
 //     document.write(b);
 
 // ARRAY INCLUDES METHOD
-var a = ["one","two","three","four","five","six"];
-   var b = a.includes("five");
-    document.write(b);
+// var a = ["one","two","three","four","five","six"];
+//    var b = a.includes("five");
+//     document.write(b);
+
+// ARRAY SOME METHOD
+// var ages = ["4","23","13","15","11","9"];
+//    var b = ages.some(checkAdult);
+//     document.write(b);
+//     function checkAdult(ages){
+//         return ages >= 18;
+//     }
