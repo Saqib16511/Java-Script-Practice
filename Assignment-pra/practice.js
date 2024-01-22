@@ -187,13 +187,31 @@
 
 
 // ARRAY MIN VALUE
-var a = [2,3,1];
-var j = a[0];
-for(b = 0; b < a.length; b++){
-    if(j < a[b]){
-        (j = j);
-    }else{
-        j = a[b];
-    }
-}
-document.write(j)
+// var a = [2,3,1];
+// var j = a[0];
+// for(b = 0; b < a.length; b++){
+//     if(j < a[b]){
+//         (j = j);
+//     }else{
+//         j = a[b];
+//     }
+// }
+// document.write(j)
+
+// // ARRAY MINI VALUE FUNCTION
+// function mini(a = [5,3,6,2,4]){
+//     var k = a[0];
+//     for(var b = 0; b < a.length; b++){
+//         if(k < a[b]){
+//             (k = k);
+//         }else{
+//             k = a[b];
+//         }
+//     }
+    
+// document.write(k)
+// }
+// b = [2,3333,5,-0,-1]
+// c = [2,3333,5,-0,-1]
+// d = [2,3333,5,-0,-1]
+//  mini()
