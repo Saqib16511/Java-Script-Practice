@@ -173,3 +173,27 @@
 //     function checkAdult(ages){
 //         return ages >= 18;
 //     }
+
+
+// Array Assignment
+// var i = 1;
+// for(var a = 1;a <= 4;a++ ){
+//     for(b = 1; b <= a;b++){
+//         document.write(i);
+//         i++;
+//     }
+//     document.write("<br>")
+// }
+
+
+// ARRAY MIN VALUE
+var a = [2,3,1];
+var j = a[0];
+for(b = 0; b < a.length; b++){
+    if(j < a[b]){
+        (j = j);
+    }else{
+        j = a[b];
+    }
+}
+document.write(j)
