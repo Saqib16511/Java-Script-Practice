@@ -215,3 +215,29 @@
 // c = [2,3333,5,-0,-1]
 // d = [2,3333,5,-0,-1]
 //  mini()
+
+
+// function max(a = [550,2574,5258,6845,23684,1205]){
+//     var z = a[0];
+//     for(b = 0;b < a.length; b++){
+//         if(z < a[b]){
+//             z = a[b];
+//         }else{
+//             (z = z)
+//         }
+//     }
+//     document.write(z)
+// }
+// max();
+
+
+// SWAPING METHOD
+// var a = 1;
+// var b = 2;
+// var box = 0;
+// box = a;
+// a = b;
+// b = box;
+// document.write(a +" "+ b)
+
+
