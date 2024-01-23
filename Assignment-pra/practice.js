@@ -284,3 +284,7 @@
 //   }
 // }
 // document.write(iso);
+
+// DATE OBJECT
+// var nnn = new Date();
+// document.write(nnn)
