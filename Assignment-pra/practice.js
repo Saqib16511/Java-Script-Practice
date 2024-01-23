@@ -240,4 +240,19 @@
 // b = box;
 // document.write(a +" "+ b)
 
-
+// SORTTING ARRAY FUNCTION
+// var sor = [2,5,8,3,7,6];
+// var box = 0;
+// for(a = 0; a < sor.length; a++){
+  
+  
+//   for(b = 0; b < sor.length ; b++){
+//     if(sor[b] > sor[a + 1] ){
+//       box = sor[b];
+//       sor[b] = sor[a + 1];
+//       sor[a + 1] = box;
+      
+//     }
+//   }
+// }
+// document.write(sor)
