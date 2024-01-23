@@ -256,3 +256,31 @@
 //   }
 // }
 // document.write(sor)
+
+// var arr = [4,255,37,-50,-20,100,0]
+// var blank = 0;
+// for(a = 0; a < arr.length; a++){
+//   for(b = 0; b < arr.length; b++){
+//     if(arr[b] > arr[a + 1]){
+//       blank = arr[b];
+//       arr[b] = arr[a + 1];
+//       arr[a + 1] = blank;
+//     }
+//   }
+// }
+// document.write(arr)
+
+
+// SORTTING ARRAY IN REVERSE
+// var iso = [50,69,99,-80,0,1,-30,70,82,105,-2,5.05,6,7,-2.5];
+// var emp = 0;
+// for(a = 0;a < iso.length; a++){
+//   for(b = 0;b < iso.length; b++){
+//     if(iso[b] < iso[a + 1]){
+//       emp = iso[b];
+//     iso[b] = iso[a + 1];
+//     iso[a + 1] = emp; 
+//     }
+//   }
+// }
+// document.write(iso);
