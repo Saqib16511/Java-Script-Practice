@@ -205,3 +205,21 @@
 //   return x * 10;  
 // }
 // document.write(i);
+
+
+
+// var element;
+// element = document.body;
+// console.log(element)
+
+// GET ELEMENT BY ID
+// element = document.getElementById("header");
+// console.log(element);
+
+// GET ELEMENT BY ID (onlytext)
+// element = document.getElementById("header").innerText;
+// console.log(element);
+
+// GET ELEMENT BY ID (GET ATTRIBUTE)
+// element = document.getElementById("header").getAttribute("class");
+// console.log(element);
