@@ -241,6 +241,11 @@
 // document.querySelector("#header")
 // console.log(element);
 
-// DOM QUERRY SELECTOR ALL
+// DOM QUERY SELECTOR ALL
 // element = document.querySelectorAll(".dom")[2];
+// console.log(element);
+
+
+// DOM CSS STYLING
+// element = document.querySelector(".dom").className = "dom bike"
 // console.log(element);
