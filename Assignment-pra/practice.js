@@ -288,3 +288,30 @@
 // DATE OBJECT
 // var nnn = new Date();
 // document.write(nnn)
+
+
+// CHANGING BUTTON STYLE BY DOM
+// document.querySelector("#btn").onclick = button;
+// element = document.querySelector("#btn");
+// function button(){
+//   if(element.style.backgroundColor == "blue"){
+//     element.style.padding = "";
+//   element.style.backgroundColor = "";
+//   element.style.border = "";
+//   element.style.borderRadius = "";
+//   element.style.color = "";
+//   element.style.fontWeight = ""
+//   element.style.boxShadow = ""
+//   element.style.margin = ""
+  
+//   }else{
+//     element.style.padding = "10px 15px";
+//   element.style.backgroundColor = "blue";
+//   element.style.border = "0px solid";
+//   element.style.borderRadius = "7px";
+//   element.style.color = "white";
+//   element.style.fontWeight = "bold"
+//   element.style.boxShadow = "1px 1px 5px purple"
+//   element.style.margin = "10% 50%"
+//   }
+// }
