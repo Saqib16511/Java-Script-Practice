@@ -240,3 +240,7 @@
 // element = document.querySelector("#header");
 // document.querySelector("#header")
 // console.log(element);
+
+// DOM QUERRY SELECTOR ALL
+// element = document.querySelectorAll(".dom")[2];
+// console.log(element);
