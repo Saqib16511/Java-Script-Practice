@@ -228,3 +228,9 @@
 // element = document.getElementById("header")
 // element.setAttribute("style","border:10px solid pink;")
 // console.log(element);
+
+
+// DOM REMOVE ATTRIBUTE
+// element = document.getElementById("header")
+// document.getElementById("header").removeAttribute("style")
+// console.log(element);
