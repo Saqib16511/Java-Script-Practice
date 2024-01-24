@@ -234,3 +234,9 @@
 // element = document.getElementById("header")
 // document.getElementById("header").removeAttribute("style")
 // console.log(element);
+
+
+// DOM QUERY SELECTOR
+// element = document.querySelector("#header");
+// document.querySelector("#header")
+// console.log(element);
