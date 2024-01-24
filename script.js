@@ -249,3 +249,17 @@
 // DOM CSS STYLING
 // element = document.querySelector(".dom").className = "dom bike"
 // console.log(element);
+
+// ADD EVENT LISTENER
+// document.querySelector("#btn").onclick = button;
+// function button(){
+//   element = document.querySelector("#btn");
+//   element.style.padding = "10px 15px";
+//   element.style.backgroundColor = "blue";
+//   element.style.border = "0px solid";
+//   element.style.borderRadius = "7px";
+//   element.style.color = "white";
+//   element.style.fontWeight = "bold"
+//   element.style.boxShadow = "1px 1px 5px purple"
+//   element.style.margin = "10% 50%"
+// }
