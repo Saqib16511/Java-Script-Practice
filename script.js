@@ -223,3 +223,8 @@
 // GET ELEMENT BY ID (GET ATTRIBUTE)
 // element = document.getElementById("header").getAttribute("class");
 // console.log(element);
+
+// DOM SET ATTRIBUTE
+// element = document.getElementById("header")
+// element.setAttribute("style","border:10px solid pink;")
+// console.log(element);
