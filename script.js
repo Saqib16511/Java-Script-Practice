@@ -192,6 +192,12 @@
 // a.sort()
 // document.write()
 
+
+// DATE OBJECT
+// var nnn = new Date();
+// document.write(nnn)
+
+
 // // MAP METHOD
 // var arr = [10,2,60,40];
 // var i = arr.map(test);
