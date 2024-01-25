@@ -331,3 +331,11 @@
 // var a = document.getElementById("header").classList;
 //   console.log(a);
 // }
+
+// DOM CLASS TOGGLE
+// document.getElementById("btn").onclick = btn;
+// function btn(){
+//   document.getElementById("btn").classList.toggle("change");
+// var a = document.getElementById("btn").classList;
+//   console.log(a);
+// }
