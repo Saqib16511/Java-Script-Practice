@@ -339,3 +339,26 @@
 // var a = document.getElementById("btn").classList;
 //   console.log(a);
 // }
+
+// CALCULATOR
+
+var inp1 = document.getElementById("first");
+var inp2 = document.getElementById("second");
+var opt = document.getElementById("opt");
+
+document.getElementById("btn").addEventListener("click", cal);
+function cal() {
+//   typecasting = string into integer
+//   parseInt(string);
+  var ina = parseInt(inp1.value);
+  var result = document.querySelector(".result");
+  
+  var inb = parseInt(inp2.value);
+  var optc = opt.value;
+  if(optc == "+"){
+    console.log(ina + inb)
+  }else if(optc == "-"){
+     result.innerHTML=(ina - inb);
+  }
+}
+
