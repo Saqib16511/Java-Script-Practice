@@ -323,3 +323,11 @@
 // var a = document.getElementById("header").classList;
 //   console.log(a);
 // }
+
+// DOM CLASS LENGTH
+// document.getElementById("header").onclick = btn;
+// function btn(){
+//   document.getElementById("header").classList.length;
+// var a = document.getElementById("header").classList;
+//   console.log(a);
+// }
