@@ -315,3 +315,11 @@
 //   element.style.margin = "10% 50%"
 //   }
 // }
+
+// DOM CLASS ADD
+// document.getElementById("header").onclick = btn;
+// function btn(){
+//   document.getElementById("header").classList.add("second","one","third");
+// var a = document.getElementById("header").classList;
+//   console.log(a);
+// }
