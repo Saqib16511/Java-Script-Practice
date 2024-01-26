@@ -356,9 +356,13 @@ function cal() {
   var inb = parseInt(inp2.value);
   var optc = opt.value;
   if(optc == "+"){
-    console.log(ina + inb)
+    result.innerHTML = (ina + inb)
   }else if(optc == "-"){
-     result.innerHTML=(ina - inb);
+     result.innerHTML = (ina - inb);
+  }else if(optc == "/"){
+    result.innerHTML = (ina / inb);
+  }else if(optc == "*"){
+    result.innerHTML = (ina * inb);
   }
 }
 
