@@ -341,28 +341,46 @@
 // }
 
 // CALCULATOR
+// var inp1 = document.getElementById("first");
+// var inp2 = document.getElementById("second");
+// var opt = document.getElementById("opt");
 
-var inp1 = document.getElementById("first");
-var inp2 = document.getElementById("second");
-var opt = document.getElementById("opt");
-
-document.getElementById("btn").addEventListener("click", cal);
-function cal() {
-//   typecasting = string into integer
-//   parseInt(string);
-  var ina = parseInt(inp1.value);
-  var result = document.querySelector(".result");
+// document.getElementById("btn").addEventListener("click", cal);
+// function cal() {
+// //   typecasting = string into integer
+// //   parseInt(string);
+//   var ina = parseInt(inp1.value);
+//   var result = document.querySelector(".result");
   
-  var inb = parseInt(inp2.value);
-  var optc = opt.value;
-  if(optc == "+"){
-    result.innerHTML = (ina + inb)
-  }else if(optc == "-"){
-     result.innerHTML = (ina - inb);
-  }else if(optc == "/"){
-    result.innerHTML = (ina / inb);
-  }else if(optc == "*"){
-    result.innerHTML = (ina * inb);
-  }
-}
+//   var inb = parseInt(inp2.value);
+//   var optc = opt.value;
+//   if(optc == "+"){
+//     result.innerHTML = (ina + inb)
+//   }else if(optc == "-"){
+//      result.innerHTML = (ina - inb);
+//   }else if(optc == "/"){
+//     result.innerHTML = (ina / inb);
+//   }else if(optc == "*"){
+//     result.innerHTML = (ina * inb);
+//   }
+// }
 
+
+// START WATCH
+
+// document.getElementById("btn").onclick = button;
+// function button(){
+//   var sec = document.getElementById("sec");
+// var min = document.getElementById("minute");
+// var sts = setInterval(second, 1000);
+// var num = 0;
+// var minute = 0;
+// function second(){
+//   sec.innerHTML = num++;
+//   min.innerHTML = minute;
+//   if(num == 5){
+//     minute++;
+//     num = 0;
+//   }
+// }
+// }
