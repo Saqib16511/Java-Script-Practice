@@ -384,3 +384,14 @@
 //   }
 // }
 // }
+
+
+// HISTORY OBJECTS BACK,FORWARD
+// document.getElementById("forward").onclick = forward;
+// document.getElementById("back").onclick = back;
+// function forward(){
+//   history.forward();
+// }
+// function back(){
+//   history.back();
+// }
