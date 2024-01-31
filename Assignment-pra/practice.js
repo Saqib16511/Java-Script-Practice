@@ -458,3 +458,30 @@
 //   collect.value = asd.innerText;
 //     collect.innerHTML;  
 // }
+
+// GRAPH LOGIC
+// let div = document.getElementById("hello");
+// let arr = [0,1,2,3,4];
+// let index = 0;
+// let secind = arr.length;
+
+// let goForward = true;
+// setInterval(myTimer, 1000);
+// function myTimer(){
+//   if(goForward){
+//     if(index < arr.length){
+//       div.innerHTML = arr[index]
+//       index++;
+//     }else{
+//       index--;
+//       goForward = false;
+//     }  
+//   }else{
+//     if(index > 0 ){
+//       div.innerHTML = arr[index];
+//       index--;
+//     }else{
+//       goForward = true;
+//     }
+//   }   
+// }
