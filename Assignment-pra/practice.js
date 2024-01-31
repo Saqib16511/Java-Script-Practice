@@ -485,3 +485,13 @@
 //     }
 //   }   
 // }
+
+
+// ARRAY LOOP
+// let arr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t",
+// "u","v","w","x","y","z"];
+// let index = 0;
+// for(i = index;i < arr.length; i++){
+//   document.write(arr[i]);
+//   document.write("<br>")
+// }
