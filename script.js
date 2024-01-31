@@ -30,7 +30,6 @@
 // var d = 75;
 // if (a > d || b > c){
 //     document.write("if any of the condition is true this will be print")
-//     document.write("<br>")
 // }
 // // Logical Operator NOT(!)
 // var a = 65;
@@ -262,4 +261,21 @@
 //   element.style.fontWeight = "bold"
 //   element.style.boxShadow = "1px 1px 5px purple"
 //   element.style.margin = "10% 50%"
+// }
+
+
+// PRINT VOLWEL & CONSONANT
+
+// let arr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t",
+// "u","v","w","x","y","z"];
+// let letter = '';
+// for(i = 0; i < arr.length; i++){
+//   letter = arr[i];
+  
+//   if(letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u"){
+//     document.write(letter + ": vowel"  );
+//   }else{
+//     document.write(letter + ": consonant"  );
+//   }
+//   document.write("<br>")
 // }
