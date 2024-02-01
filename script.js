@@ -279,3 +279,20 @@
 //   }
 //   document.write("<br>")
 // }
+
+
+// Back Function
+// function backfunc(){
+//   history.back()
+// }
+// forward function
+// function forwardfunc(){
+//   history.forward()
+// }
+// GO Function
+// function gofunc(){
+//   history.go()
+// }
+
+// window open function
+// window.open(url,name,w-h-l-t)
