@@ -520,3 +520,18 @@
 //   document.write(arr[a]);
 //   document.write("<br>");
 // }
+
+// ODD ARRAY LOOP
+// let arr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t",
+// "u","v","w","x","y","z"];
+
+// let empt = 0;
+//            for(a = empt;a < arr.length; a++){
+//              letter = arr[a];
+//              if(a % 2 == 0){
+//                document.write(letter)
+//              }else{
+//                // document.write(letter)
+//              }
+//              document.write("<br>")
+// }
