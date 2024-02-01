@@ -495,3 +495,17 @@
 //   document.write(arr[i]);
 //   document.write("<br>")
 // }
+
+// EVEN AND ODD LOOP
+
+// for(i = 1; i <= 100; i++){
+//   // document.write(i++)
+//   // document.write("<br>")
+//   let aa = true;
+//   if(i % 2 == 0) {
+//     document.write(i + "even")
+//    }else{
+//      document.write(i + "odd")
+//    }
+//   document.write("<br>")
+// }
