@@ -535,3 +535,31 @@
 //              }
 //              document.write("<br>")
 // }
+
+
+// ARRAY LOOP PRACTICE
+// let arr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+
+
+// for(a = 0;a < arr.length; a++){
+//   result = arr[a]
+//   if(a % 3 == 0){
+//     document.write(result);
+//   }
+//   document.write("<br>")
+// }
+
+
+// ARRAY ODD LOOP
+// let arr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+
+// let empty = arr.length - 1;
+// for(a = empty; a > 0; a--){
+//   result = arr[a]
+//   if(a % 2 == 0){
+//     // document.write(result);
+//   }else{
+//     document.write(result)
+//   }
+//   document.write("<br>")
+// }
