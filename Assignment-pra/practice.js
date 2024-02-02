@@ -617,3 +617,15 @@
 //       }
 //     }
 //     document.write(arr)
+
+
+// MAXIMUM NUMBER IN ARRAY
+// let arr = [12,3,6,7,8,41,11,10,9,25,78];
+// let check = 0;
+// for(a = check;a < arr.length; a++){
+//     result = arr[a];
+//     if(arr[a] > check){
+//      check = result
+//     }
+// }
+// document.write(check)
