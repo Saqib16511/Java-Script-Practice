@@ -515,8 +515,8 @@
 // let arr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t",
 // "u","v","w","x","y","z"];
 
-// index = arr.length - 1
-// for(a = index;a > 0 ; a--){
+// index = arr.length - 1;
+// for(var a = index;a > 0 ; a--){
 //   document.write(arr[a]);
 //   document.write("<br>");
 // }
@@ -557,7 +557,6 @@
 // for(a = empty; a > 0; a--){
 //   result = arr[a]
 //   if(a % 2 == 0){
-//     // document.write(result);
 //   }else{
 //     document.write(result)
 //   }
@@ -580,10 +579,27 @@
 // let arr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
 
 // let empty = arr.length - 1;
-// for(a = empty; a > 0; a--){
+// for(a = empty; a > 0; a-=3){
 //   result = arr[a]
-//   if(a % 3 == 1){
+//   // if(a % 3 == 1){
 //     document.write(result);
-//   }
+//   // }
 //   document.write("<br>")
 // }
+
+
+// ARAAY SORTING LOOP
+// let arr = [12,3,6,7,8,11,10,9];
+// let not = 0;
+//   for(b = 0;b < arr.length; b++){
+//     for(a = 0;a < arr.length; a++){
+//       if(arr[a] > arr[b + 1]){
+//         not = arr[a]
+//         arr[a] = arr[b + 1]
+//         arr[b + 1] = not;
+//       }
+      
+//     }
+//   }
+//   document.write(arr);
+
