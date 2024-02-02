@@ -563,3 +563,27 @@
 //   }
 //   document.write("<br>")
 // }
+
+// REVERSE ARRAY LOOP START FROM [1]
+// let arr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+
+// let empty = arr.length - 1;
+// for(a = empty; a > 0; a--){
+//   result = arr[a]
+//   if(a % 3 == 0){
+//     document.write(result);
+//   }
+//   document.write("<br>")
+// }
+
+// REVERSE ARRAY LOOP START FROM [0]
+// let arr = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
+
+// let empty = arr.length - 1;
+// for(a = empty; a > 0; a--){
+//   result = arr[a]
+//   if(a % 3 == 1){
+//     document.write(result);
+//   }
+//   document.write("<br>")
+// }
