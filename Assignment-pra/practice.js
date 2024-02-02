@@ -603,3 +603,17 @@
 //   }
 //   document.write(arr);
 
+
+// ARRAY REVERSE SORTING LOOP
+// let arr = [12,3,6,7,8,11,10,9,70,-25,58,0,65];
+// let not = 0;
+//     for(a = arr.length;a > 0; a--){
+//       for(b = arr.length;b > 0; b--){
+//         if(arr[a - 1] < arr[b]){
+//           not = arr[a - 1]
+//           arr[a - 1] = arr[b]
+//           arr[b] = not;
+//         }
+//       }
+//     }
+//     document.write(arr)
