@@ -620,7 +620,7 @@
 
 
 // MAXIMUM NUMBER IN ARRAY
-// let arr = [12,3,6,7,8,41,11,10,9,25,78];
+// let arr = [12,3,6,7,80,41,11,10,9,25,78];
 // let check = 0;
 // for(a = check;a < arr.length; a++){
 //     result = arr[a];
@@ -629,3 +629,14 @@
 //     }
 // }
 // document.write(check)
+
+// MINIMUN NUMBER IN ARRAY
+// let arr = [12,6,7,-1,8,41,1,11,10,9,25,78];
+// let low = 0;
+// for(a = arr.length;a > 0; a-- ){
+//     minn = arr[a]
+//     if(minn < a){
+//       low = minn
+//     }
+// }
+// document.write(low)
