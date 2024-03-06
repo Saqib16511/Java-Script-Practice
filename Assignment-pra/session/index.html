@@ -9,15 +9,38 @@
 </head>
 <body>
     <form>
-        <div>
-            <div id="Q01" value="Qno1">Qno.01. which one is correct?</div>
+        <div style="padding: 20px;">
+            <!-- QNO.01 -->
+            <div id="Q.01" value="Qno1">Qno.01. which one is correct?</div>
             <div style="display: flex; flex-direction: column;">
-                <input type="radio" id="am" name="Qno1" value="A">
+                <input type="checkbox" id="am" name="Qno1" value="A">
                 <label for="am" >He am a Boy</label>
-                <input type="radio" id="are" name="Qno1" value="B">
+                <input type="checkbox" id="are" name="Qno1" value="B">
                 <label for="are" >He are a Boy</label>
-                <input type="radio" id="is" name="Qno1" value="C">
+                <input type="checkbox" id="is" name="Qno1" value="C">
                 <label for="is" id="opclabel">He is a Boy</label>
+            </div>
+            <hr>
+            <!-- QNO.02 -->
+            <div id="Q.02" value="Qno2">Qno.02. which one is correct?</div>
+            <div style="display: flex; flex-direction: column;">
+                <input type="checkbox" id="currect" name="Qno2" value="A">
+                <label for="currect" >currect</label>
+                <input type="checkbox" id="carrant" name="Qno2" value="B">
+                <label for="carrant" >carrant</label>
+                <input type="checkbox" id="current" name="Qno2" value="C">
+                <label for="current">current</label>
+            </div>
+            <!-- QNO.03 -->
+            <hr>
+            <div id="Q.03" value="Qno3">Qno.03. which one is correct?</div>
+            <div style="display: flex; flex-direction: column;">
+                <input type="checkbox" id="enformetion" name="Qno3" value="A">
+                <label for="enformetion" >enformetion</label>
+                <input type="checkbox" id="inphormation" name="Qno3" value="B">
+                <label for="inphormation" >inphormation</label>
+                <input type="checkbox" id="information" name="Qno3" value="C">
+                <label for="information">information</label>
                 <button type="submit" id="submit" style="width: 80px;" >Submit</button>
             </div>
         </div>
