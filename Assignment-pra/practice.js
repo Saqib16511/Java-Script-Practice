@@ -676,3 +676,23 @@
 //     }
 //     document.write(sum);
 //  }
+
+// function sum (a,b){
+//     c = a+b;
+//     return c;
+// }
+// // ans = sum(10,10);
+
+// console.log(sum(10,10));
+
+// Object Literals 
+// var fname = "Muhammad";
+// var lname = "Saqib";
+// var classN = 10;
+// function obj(fname,lname,classN){
+//     var fullname = fname +" "+ lname;
+//     return {fullname,classN}
+// }
+// var print = obj(fname,lname,classN)
+// console.log(print.fullname);
+// console.log(print.classN);
