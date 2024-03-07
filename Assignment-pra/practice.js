@@ -696,3 +696,10 @@
 // var print = obj(fname,lname,classN)
 // console.log(print.fullname);
 // console.log(print.classN);
+
+// Destructuring Array
+// let arr = ["Saqib",24,"Mirpurkhas"];
+// let [name,age,city] = arr;
+// console.log(name);
+// console.log(age);
+// console.log(city);
