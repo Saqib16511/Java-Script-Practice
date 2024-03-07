@@ -589,7 +589,7 @@
 
 
 // ARAAY SORTING LOOP
-// let arr = [12,3,6,7,8,11,10,9];
+// let arr = [12,13,6,7,8,1,0,9];
 // let not = 0;
 //   for(b = 0;b < arr.length; b++){
 //     for(a = 0;a < arr.length; a++){
@@ -605,7 +605,7 @@
 
 
 // ARRAY REVERSE SORTING LOOP
-// let arr = [12,3,6,7,8,11,10,9,70,-25,58,0,65];
+// let arr = [12,-3,6,-7,8,11,10,9,70,-25,58,0,65];
 // let not = 0;
 //     for(a = arr.length;a > 0; a--){
 //       for(b = arr.length;b > 0; b--){
@@ -620,18 +620,18 @@
 
 
 // MAXIMUM NUMBER IN ARRAY
-// let arr = [12,3,6,7,80,41,11,10,9,25,78];
+// let arr = [0, 0,6,170,0,41,11,10,9,25,78];
 // let check = 0;
-// for(a = check;a < arr.length; a++){
+// for(a = 0;a < arr.length; a++){
 //     result = arr[a];
 //     if(arr[a] > check){
-//      check = result
+//      check = result;
 //     }
 // }
 // document.write(check)
 
-// MINIMUN NUMBER IN ARRAY
-// let arr = [12,6,7,-1,8,41,1,11,10,9,25,78];
+// MINIMUM NUMBER IN ARRAY
+// let arr = [12,6,17,55,8,41,-1,11,10,9,25,0];
 // let low = 0;
 // for(a = arr.length;a > 0; a-- ){
 //     minn = arr[a]
@@ -640,3 +640,39 @@
 //     }
 // }
 // document.write(low)
+
+// COOKIE STORAGE
+// document.cookie = "username=hsarry Smith; expires=Thu, 18 Dec 2013 12:00:00 UTC; path=/";
+// document.cookie = "user=joh"; 
+// document.cookie = "user=ali";
+
+// SESSION STORAGE
+// sessionStorage.setItem ("name", "John Doe");
+// sessionStorage.removeItem("name");
+
+// REST OPERATOR
+// sum("saqib",10,20,30)
+// function sum(name, ...args){
+//     console.log(arguments)
+//     document.write(`${name}`)
+//     let sum = 0
+//     for(let i in args){
+        
+//         sum += args[i];
+//         // document.write( sum)
+//     }
+//     document.write(sum);
+// }
+
+// SPREAD OPERATOR
+//  arr = [1,2,3,4,5];
+//  sum("saqib",...arr);
+//  function sum(name,...arr){
+//     console.log(arguments);
+//     document.write(name);
+//     let sum = 0;
+//     for(let j in arr){
+//         sum += arr[j];
+//     }
+//     document.write(sum);
+//  }
