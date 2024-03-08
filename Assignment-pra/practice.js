@@ -703,3 +703,15 @@
 // console.log(name);
 // console.log(age);
 // console.log(city);
+
+// ARRAY
+let student = ["Saqib","Saddam","Rizwan","Saqib"];
+ arr(...student);
+ function arr(){
+     console.log(arguments);
+     let hell = 0;
+    for(let i in student){
+        hell = student[i];
+    document.write(hell + " ");
+    }
+}
