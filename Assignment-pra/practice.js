@@ -716,25 +716,116 @@
 //     }
 // }
     // OBJECT Values
-    let acc = {
-        saqib:{
+    // let acc = {
+    //     saqib:{
             
-            age:20,
-            address:'mirpur khas',
-            height:'5ft'
-        },
-        saddam:{
-            name:"Saddam",
-            age:18,
-            city:"Dhaka"
-        },
+    //         age:20,
+    //         address:'mirpur khas',
+    //         height:'5ft'
+    //     },
+    //     saddam:{
+    //         name:"Saddam",
+    //         age:18,
+    //         city:"Dhaka"
+    //     },
         
-    };
-        let result = " ";
-        for(let j in acc){
-             result = acc[j];
-            document.write(j +"<br>");
-            for(let i in  result){
-                document.write(i+" : "+ result[i] + "<br> ")
-            }
+    // };
+    //     let result = " ";
+    //     for(let j in acc){
+    //          result = acc[j];
+    //         document.write(j +"<br>");
+    //         for(let i in  result){
+    //             document.write(i+" : "+ result[i] + "<br> ")
+    //         }
+    // }
+   
+    // TRADING LOGIC
+//     let arr = [1,2,3,4,5];
+// setInterval(right, 1000)
+// let i = 0
+// let j = 4
+// function right(){
+//     if(i < arr.length){
+//         document.getElementById("chee").innerHTML = arr[i]
+//         i += 1
+//     }
+//     else if(j >= 0){
+//         document.getElementById("chee").innerHTML = arr[j]
+//         j -= 1
+//     }else if()
+// }
+
+
+    // k = 10 >> 2;
+    // console.log(k)
+    // let k = 100
+    // k ^= 5;
+    // console.log(k)
+
+    // let ali = 15;
+    // if(ali > 18){
+    //     console.log("Above Eighteen")
+    // }else if(ali < 18){
+    //     console.log("Eighteen Below")
+    // }else if(ali == 18){
+    //     console.log("Eighteen Years Old")
+    // };
+    
+    // let arr = [1,2,3,4,5];
+    // for(let i = 0;i < arr.length;i++){
+    //     document.write(arr[i]+" ");
+    // }
+
+    // let arr2 = [1,2,3,4,5]
+    // for(let j = 5;j > 0;j--){
+    //     document.write(j)
+    // }
+
+    // let good = 50
+    // let bad = 70
+    // let rehman = 50
+    // if(rehman != bad){
+    //     console.log('false')
+    // }else if(rehman !== good){
+    //     console.log(True)
+    // };
+
+    // let ferrari= 70
+    // let Bmw = 50
+    // let bmw = '50'
+    // if(ferrari >= Bmw){
+    //     console.log('Yes')
+    // }else if( bmw === Bmw){
+    //     console.log('No')
+    // }
+
+
+    // Result Card
+    let english = 96;
+    let urdu = 78;
+    let math = 80;
+    let biology = 60;
+    let physics = 55;
+    // Sum of All Subjects
+    total = english + urdu + math + biology + physics;
+    console.log(total +" "+ 'Marks');
+    // Average of All Subjects
+    totalsub = 5;
+    average =  total / totalsub;
+    console.log(average+" "+ 'Avg')
+    // Parcentage
+    divi = total / 500;
+    percentage = divi * 100;
+    console.log (percentage+" "+ '%');
+    // Obtaine Grade
+    if(percentage >= 80){
+        document.write('Grade A')
+    }else if(percentage >= 70){
+        document.write('Grade B')
+    }else if(percentage >= 60){
+        document.write('Grade C')
+    }else if(percentage >= 50){
+        document.write('Grade D')
+    }else if(percentage >= 40){
+        document.write('Grade E')
     }
