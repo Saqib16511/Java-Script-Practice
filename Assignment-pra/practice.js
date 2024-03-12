@@ -705,13 +705,36 @@
 // console.log(city);
 
 // ARRAY
-let student = ["Saqib","Saddam","Rizwan","Saqib"];
- arr(...student);
- function arr(){
-     console.log(arguments);
-     let hell = 0;
-    for(let i in student){
-        hell = student[i];
-    document.write(hell + " ");
+// let student = ["Saqib","Saddam","Rizwan","Saqib"];
+//  arr(...student);
+//  function arr(){
+//      console.log(arguments);
+//      let hell = 0;
+//     for(let i in student){
+//         hell = student[i];
+//     document.write(hell + " ");
+//     }
+// }
+    // OBJECT Values
+    let acc = {
+        saqib:{
+            
+            age:20,
+            address:'mirpur khas',
+            height:'5ft'
+        },
+        saddam:{
+            name:"Saddam",
+            age:18,
+            city:"Dhaka"
+        },
+        
+    };
+        let result = " ";
+        for(let j in acc){
+             result = acc[j];
+            document.write(j +"<br>");
+            for(let i in  result){
+                document.write(i+" : "+ result[i] + "<br> ")
+            }
     }
-}
