@@ -834,32 +834,18 @@
     // if(math < 40 || english < 40 || urdu < 40 || biology < 40 || physics < 40){
     //     document.write(` :You Failed in a paper and got 309 Marks`)
     // }
-
-    // LOCAL HOTEL FOOD
-    // let customer = 150;
-    // if(customer >= 200){
-    //     document.write("give him beef biryani")
-    // }else if(customer >= 150){
-    //     document.write('give him chana biryani')
-    // }else if(customer >= 120){
-    //     document.write('give him choolay')
-    // }else if(customer >= 80){
-    //     document.write('give him daal roti')
-    // }else if(customer < 80){
-    //     document.write('tell him to give more money')
-    // }
-// DAILY WORK GOAL
+    // DAILY WORK GOAL
     // let dailywork = 3;
     // let dailyworkgoal = 5;
     // if(dailywork >= dailyworkgoal){
-    //     document.write('you have achived your daily goal')
+        //     document.write('you have achived your daily goal')
     // }else if(dailywork < dailyworkgoal){
     //     document.write('keep working you did not achive your goal yet')
     // };
 // QUESTION CORRECT ANSWER
     // let pass = 4;
     // if(pass >= 4){
-    //     document.write('you are pass')
+        //     document.write('you are pass')
     // }else if(pass >= 2){
     //     document.write('you are fail')
     // };
@@ -895,7 +881,7 @@
     //         color = "none"
     // }
     // document.getElementById("chee").style.color = color;
-
+    
 // BUYING DRINKS
     // let budget = 105;
     // let icecream = 200;
@@ -903,7 +889,7 @@
     // let coffee = 250;
     // let tea = 100;
     // if(budget >= icecream){
-    //     document.write("i will buy ice cream")
+        //     document.write("i will buy ice cream")
     // }else if(budget >= colddrink){
     //     document.write("i will buy a cold drink")
     // }else if(budget >= coffee){
@@ -913,7 +899,7 @@
     // }else if(budget <= 50){
     //     document.write("i need more money")
     // };
-// USMAN IS SHORTER THAN
+    // USMAN IS SHORTER THAN
     // let usmanheight = 5.9;
     // let asharheight = 5.5;
     // let shahzadheight = 5.8;
@@ -924,12 +910,12 @@
     // }else if(usmanheight < shahzadheight){
     //     document.write('usman is shorter than shahzad')
     // }else if(usmanheight < saqibheight){
-    //     document.write('usman is shorter than saqib')
-    // }else if(usmanheight < aqibheight){
-    //     document.write('usman is shorter than aqib')
+        //     document.write('usman is shorter than saqib')
+        // }else if(usmanheight < aqibheight){
+            //     document.write('usman is shorter than aqib')
     // };
 // LAPTOP COMPARISON
-    // let hp = 30000;
+// let hp = 30000;
     // let mac = 200000;
     // let dell = 20000;
     // let lenovo = 50000;
@@ -943,3 +929,26 @@
     // }else if(myrang > lenovo){
     //     document.write('Lenovo Laptop')
     // };
+// LOCAL HOTEL FOOD
+    // let customer = 150;
+    // if(customer >= 200){
+    //     document.write("give him beef biryani")
+    // }else if(customer >= 150){
+    //     document.write('give him chana biryani')
+    // }else if(customer >= 120){
+    //     document.write('give him choolay')
+    // }else if(customer >= 80){
+    //     document.write('give him daal roti')
+    // }else if(customer < 80){
+    //     document.write('tell him to give more money')
+    // }
+//  TEMPERATURE BY USING COMPARISON OPERTORS
+    let thermometer = 110
+    if(thermometer <= 90){
+        document.write('you have temperature')
+    }else if(thermometer <= 100){
+        document.write('you have fever')
+    }else if(thermometer <= 110){
+        document.write('you have high fever')
+    } 
+                            
