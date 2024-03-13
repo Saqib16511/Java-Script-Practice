@@ -801,31 +801,84 @@
 
 
     // Result Card
-    let english = 96;
-    let urdu = 78;
-    let math = 80;
-    let biology = 60;
-    let physics = 55;
-    // Sum of All Subjects
-    total = english + urdu + math + biology + physics;
-    console.log(total +" "+ 'Marks');
-    // Average of All Subjects
-    totalsub = 5;
-    average =  total / totalsub;
-    console.log(average+" "+ 'Avg')
-    // Parcentage
-    divi = total / 500;
-    percentage = divi * 100;
-    console.log (percentage+" "+ '%');
-    // Obtaine Grade
-    if(percentage >= 80){
-        document.write('Grade A')
-    }else if(percentage >= 70){
-        document.write('Grade B')
-    }else if(percentage >= 60){
-        document.write('Grade C')
-    }else if(percentage >= 50){
-        document.write('Grade D')
-    }else if(percentage >= 40){
-        document.write('Grade E')
-    }
+    // let english = 70;
+    // let urdu = 70;
+    // let math = 70;
+    // let biology = 70;
+    // let physics = 70;
+    // let total = 500;
+    // let all = english
+    // // Sum of All Subjects
+    // obtain = english + urdu + math + biology + physics;
+    // console.log(obtain +" "+ 'Marks');
+    // // Average of All Subjects
+    // totalsub = 5;
+    // average =  obtain / totalsub;
+    // console.log(average+" "+ 'Avg')
+    // // Parcentage
+    // divi = obtain / total;
+    // percentage = divi * 100;
+    // console.log (percentage+" "+ '%');
+    // // Obtaine Grade
+    // if(percentage >= 80){
+    //     document.write('Grade A')
+    // }else if(percentage >= 70){
+    //     document.write('Grade B')
+    // }else if(percentage >= 60){
+    //     document.write('Grade C')
+    // }else if(percentage >= 50){
+    //     document.write('Grade D')
+    // }else if(percentage >= 40){
+    //     document.write('Grade E')
+    // }
+    // if(math < 40 || english < 40 || urdu < 40 || biology < 40 || physics < 40){
+    //     document.write(` :You Failed in a paper and got 309 Marks`)
+    // }
+
+    // LOCAL HOTEL FOOD
+    // let customer = 150;
+    // if(customer >= 200){
+    //     document.write("give him beef biryani")
+    // }else if(customer >= 150){
+    //     document.write('give him chana biryani')
+    // }else if(customer >= 120){
+    //     document.write('give him choolay')
+    // }else if(customer >= 80){
+    //     document.write('give him daal roti')
+    // }else if(customer < 80){
+    //     document.write('tell him to give more money')
+    // }
+// DAILY WORK GOAL
+    // let dailywork = 3;
+    // let dailyworkgoal = 5;
+    // if(dailywork >= dailyworkgoal){
+    //     document.write('you have achived your daily goal')
+    // }else if(dailywork < dailyworkgoal){
+    //     document.write('keep working you did not achive your goal yet')
+    // };
+// QUESTION CORRECT ANSWER
+    // let pass = 4;
+    // if(pass >= 4){
+    //     document.write('you are pass')
+    // }else if(pass >= 2){
+    //     document.write('you are fail')
+    // };
+// SWITCH CASE
+    let food;
+    switch(40){
+        case 120:
+            food = "Choolay"
+            break;
+        case 80:
+            food = "daal roti"
+            break;
+        case 150:
+            food = "chana Biryani"
+            break;
+        case 200:
+            food = "Beef Biryani"
+            break;
+        default:
+            food = "give more money";
+    };
+    document.write(food);
