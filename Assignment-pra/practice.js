@@ -883,15 +883,63 @@
     // };
     // document.write(food);
 // FONT COLOR CHANGE BY USING SWITCH CASE
-    let color;
-    switch('green'){
-        case "green":
-            color = "green"
-            break;
-        case 'yellow':
-            color = 'yellow'
-            break;
-        default:
-            color = "none"
-    }
-    document.getElementById("chee").style.color = color
+    // let color;
+    // switch('green'){
+    //     case "green":
+    //         color = "green"
+    //         break;
+    //     case 'yellow':
+    //         color = 'yellow'
+    //         break;
+    //     default:
+    //         color = "none"
+    // }
+    // document.getElementById("chee").style.color = color;
+
+// BUYING DRINKS
+    // let budget = 105;
+    // let icecream = 200;
+    // let colddrink = 150;
+    // let coffee = 250;
+    // let tea = 100;
+    // if(budget >= icecream){
+    //     document.write("i will buy ice cream")
+    // }else if(budget >= colddrink){
+    //     document.write("i will buy a cold drink")
+    // }else if(budget >= coffee){
+    //     document.write("i will buy coffee")
+    // }else if(budget >= tea){
+    //     document.write("i will buy a tea")
+    // }else if(budget <= 50){
+    //     document.write("i need more money")
+    // };
+// USMAN IS SHORTER THAN
+    // let usmanheight = 5.9;
+    // let asharheight = 5.5;
+    // let shahzadheight = 5.8;
+    // let saqibheight = 5.4;
+    // let aqibheight = 6.2
+    // if(usmanheight < asharheight){
+    //     document.write('usman is shorter than ashar')
+    // }else if(usmanheight < shahzadheight){
+    //     document.write('usman is shorter than shahzad')
+    // }else if(usmanheight < saqibheight){
+    //     document.write('usman is shorter than saqib')
+    // }else if(usmanheight < aqibheight){
+    //     document.write('usman is shorter than aqib')
+    // };
+// LAPTOP COMPARISON
+    // let hp = 30000;
+    // let mac = 200000;
+    // let dell = 20000;
+    // let lenovo = 50000;
+    // let myrang = 35000;
+    // if(myrang > hp){
+    //     document.write('HP laptop')
+    // }else if(myrang > mac){
+    //     document.write('MAC Laptop')
+    // }else if(myrang > dell){
+    //     document.write('Dell Laptop')
+    // }else if(myrang > lenovo){
+    //     document.write('Lenovo Laptop')
+    // };
