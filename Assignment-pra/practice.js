@@ -864,21 +864,34 @@
     //     document.write('you are fail')
     // };
 // SWITCH CASE
-    let food;
-    switch(40){
-        case 120:
-            food = "Choolay"
+    // let food;
+    // switch(40){
+    //     case 120:
+    //         food = "Choolay"
+    //         break;
+    //     case 80:
+    //         food = "daal roti"
+    //         break;
+    //     case 150:
+    //         food = "chana Biryani"
+    //         break;
+    //     case 200:
+    //         food = "Beef Biryani"
+    //         break;
+    //     default:
+    //         food = "give more money";
+    // };
+    // document.write(food);
+// FONT COLOR CHANGE BY USING SWITCH CASE
+    let color;
+    switch('green'){
+        case "green":
+            color = "green"
             break;
-        case 80:
-            food = "daal roti"
-            break;
-        case 150:
-            food = "chana Biryani"
-            break;
-        case 200:
-            food = "Beef Biryani"
+        case 'yellow':
+            color = 'yellow'
             break;
         default:
-            food = "give more money";
-    };
-    document.write(food);
+            color = "none"
+    }
+    document.getElementById("chee").style.color = color
