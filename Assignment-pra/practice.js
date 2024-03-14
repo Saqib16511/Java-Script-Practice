@@ -1003,3 +1003,12 @@
     // for(elements of students){
     //     console.log(elements)
     // };
+// OBJECT FOR IN LOOP
+    // let info = {
+    //     name: 'saqib',
+    //     age: 24,
+    //     salary: 500
+    // };
+    // for(key in info){
+    //     console.log(`${key},${info[key]}`)
+    // };
