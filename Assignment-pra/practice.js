@@ -982,3 +982,7 @@
     // let  arr=[8,7,5,2,];
     // arr = arr.sort();
     // console.log(arr);
+// ARRAY PUSH METHOD
+    // let arr = ['ali','ahmed','rizwan','aqib'];
+    // arr.push('saddam','haris');
+    // console.log(arr);
