@@ -993,3 +993,10 @@
     //     salary: 500
     // };
     // console.log(info);
+// FOREACH LOOP
+    // let students = ['azam','rehman','rizwan','muzammil'];
+    // students.forEach(function f(elements){
+    //     console.log('hello'+ " "+ elements)
+    // });
+        
+    
