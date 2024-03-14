@@ -804,7 +804,7 @@
     // let english = 70;
     // let urdu = 70;
     // let math = 70;
-    // let biology = 70;
+    // let biology = 45;
     // let physics = 70;
     // let total = 500;
     // let all = english
@@ -870,7 +870,7 @@
     // document.write(food);
 // FONT COLOR CHANGE BY USING SWITCH CASE
     // let color;
-    // switch('green'){
+    // switch('yellow'){
     //     case "green":
     //         color = "green"
     //         break;
@@ -889,7 +889,7 @@
     // let coffee = 250;
     // let tea = 100;
     // if(budget >= icecream){
-        //     document.write("i will buy ice cream")
+    //         document.write("i will buy ice cream")
     // }else if(budget >= colddrink){
     //     document.write("i will buy a cold drink")
     // }else if(budget >= coffee){
@@ -910,12 +910,12 @@
     // }else if(usmanheight < shahzadheight){
     //     document.write('usman is shorter than shahzad')
     // }else if(usmanheight < saqibheight){
-        //     document.write('usman is shorter than saqib')
-        // }else if(usmanheight < aqibheight){
-            //     document.write('usman is shorter than aqib')
+    //         document.write('usman is shorter than saqib')
+    //     }else if(usmanheight < aqibheight){
+    //             document.write('usman is shorter than aqib')
     // };
 // LAPTOP COMPARISON
-// let hp = 30000;
+    // let hp = 30000;
     // let mac = 200000;
     // let dell = 20000;
     // let lenovo = 50000;
@@ -943,12 +943,42 @@
     //     document.write('tell him to give more money')
     // }
 //  TEMPERATURE BY USING COMPARISON OPERTORS
-    let thermometer = 110
-    if(thermometer <= 90){
-        document.write('you have temperature')
-    }else if(thermometer <= 100){
-        document.write('you have fever')
-    }else if(thermometer <= 110){
-        document.write('you have high fever')
-    } 
-                            
+    // let thermometer = 96
+    // if(thermometer <= 90){
+    //     document.write('you have temperature')
+    // }else if(thermometer <= 100){
+    //     document.write('you have fever')
+    // }else if(thermometer <= 110){
+    //     document.write('you have high fever')
+    // }; 
+// switch case
+    // let last = 4;
+    // switch(last){
+    //     case 0:
+    //         document.write('monday');
+    //         break;
+    //     case 1:
+    //         document.write('tuesday');
+    //         break;
+    //     case 2:
+    //         document.write('wednesday');
+    //         break;
+    //     case 3:
+    //         document.write('thursday');
+    //         break;
+    //     case 4:
+    //         document.write('friday');
+    //         break;
+    //     case 5:
+    //         document.write('saturday');
+    //         break;
+    //     case 6:
+    //         document.write('sunday');
+    //         break;
+    //     default:
+    //         document.write('invalid date')  
+    // }
+// ARRAY SORT
+    // let  arr=[8,7,5,2,];
+    // arr = arr.sort();
+    // console.log(arr);
