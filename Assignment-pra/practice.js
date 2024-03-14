@@ -998,5 +998,8 @@
     // students.forEach(function f(elements){
     //     console.log('hello'+ " "+ elements)
     // });
-        
-    
+// FOR OF LOOP
+    // let students = ['azam','Rehman','rizwan','muzammil'];
+    // for(elements of students){
+    //     console.log(elements)
+    // };
