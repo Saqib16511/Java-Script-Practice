@@ -986,3 +986,10 @@
     // let arr = ['ali','ahmed','rizwan','aqib'];
     // arr.push('saddam','haris');
     // console.log(arr);
+// OBJECT
+    // let info = {
+    //     name: 'saqib',
+    //     age: 24,
+    //     salary: 500
+    // };
+    // console.log(info);
