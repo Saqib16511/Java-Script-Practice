@@ -1025,3 +1025,44 @@
     //     document.write(ele+ " "+ "<br>")
     // }
     // document.write("purple on index 3 has been skiped")
+// MAPS 
+    let mymap = new Map();
+    // SET THE VALUE IN MAP
+    let key1 = "mystri"
+    let key2 = 23;
+    let key3 = ['apple','mango']
+    mymap.set(key1,'this is a string')
+    mymap.set(key2,'this is a number')
+    mymap.set(key3,'this is an array')
+    console.log(mymap);
+    // get the value from a MAP
+    let value = mymap.get(key2);
+    console.log(value);
+    // get the size of MAP
+    console.log(mymap.size)
+    // USING LOOP FOR GET KEY AND VALUE
+    for([key,value] of mymap){
+        console.log(key,value)
+    };
+    // GET THE KEY ONLY
+    for(let key of mymap.keys()){
+        console.log(key)
+    };
+    // GET THE VALUE ONLY 
+    for (let value of mymap.values()){
+        console.log(value)
+    }
+    // MAP BY USING FOREACH LOOP
+    mymap.forEach((values,keys)=>{
+        console.log(keys,values)
+        // console.log(values)
+    })
+    // CONVERTING MAP INTO AN ARRAY
+    let myarr = Array.from(mymap);
+    console.log("Map Convert into an Arrat",myarr)
+    // CONVERTING MAP KEYS INTO AN ARRAY
+    let myarrkeys = Array.from( mymap.keys());
+    console.log("Map Keys Convert into an Array",myarrkeys)
+    // CONVERTING MAP VLAUES INTO AN ARRAY
+    let myarrvalues = Array.from(mymap.values());
+    console.log("Map Values Convert into an Array", myarrvalues)
