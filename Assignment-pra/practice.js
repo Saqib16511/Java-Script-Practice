@@ -1013,8 +1013,15 @@
     //     console.log(`${key},${info[key]}`)
     // };
 // BREAK LOOP
-    let arr = [1,2,3,4,5,6,7,8,9];
-    for(let i = 0;i <= arr.length;i++){
-        if(i == 6){break}
-        document.write(i)
-    };
+    // let arr = [1,2,3,4,5,6,7,8,9];
+    // for(let i = 0;i <= arr.length;i++){
+    //     if(i == 6){break}
+    //     document.write(i)
+    // };
+// SKIP ONE ELEMENT FOR AN ARRAY BY CONTINUE STATEMENT
+    // let = arr = ['red','green','blue','purple','pink','yellow','black'];
+    // for(ele of arr){
+    //     if(ele == arr[3]){continue}
+    //     document.write(ele+ " "+ "<br>")
+    // }
+    // document.write("purple on index 3 has been skiped")
