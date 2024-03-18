@@ -1028,21 +1028,19 @@
 // MAPS 
     // let mymap = new Map();
     // // SET THE VALUE IN MAP
-    // let key1 = 23;
     // let key2 = 23;
     // let key3 = ['apple','mango'];
-    // mymap.set(key1,'this is a string');
     // mymap.set(key2,'this is a number');
     // mymap.set(key3,'this is an array');
     // console.log(mymap);
-    // // get the value from a MAP
+    // get the value from a MAP
     // let value = mymap.get(key2);
     // console.log(value);
     // // get the size of MAP
     // console.log(mymap.size);
     // // USING LOOP FOR GET KEY AND VALUE
     // for([key,value] of mymap){
-    //     console.log(key,value);
+        // console.log(key,value);
     // };
     // // GET THE KEY ONLY
     // for(let key of mymap.keys()){
@@ -1071,8 +1069,36 @@
     // myset.add(['unique','value',23,{name:'saqib',age:24}])
     // console.log(myset)
 
-    // let abc = {apple:1, mango:2,banana:3};
-    // abc.lemon = 5
-    // for(ele in abc){
-    //     document.write(ele+ "")
-    // }
+    // let abc = e{appl:1, mango:2,banana:3};
+    // // for(ele in abc){
+    //     console.log(abc)
+    // // };    
+
+//   OBJECT VALUES FIND BY KEYS
+    let dict ={ "key1" : "value1",
+                "key2" : "value2",
+                "key3" : "value3",
+                "saqib" : "shah"
+
+            };
+            let form = document.querySelector("form")
+            let input = document.getElementById("input");
+            let btn = document.getElementById("btn");
+           
+            form.onsubmit = (e)=>{
+                e.preventDefault()
+               let i = " "
+               i = input.value
+                for(key in dict){
+                    if(i == key){
+                        console.log(dict[key])
+                        break;
+                    }
+                }
+                if(i !== key){
+                    alert('ERROR')
+                      
+                }
+            }
+               
+                
