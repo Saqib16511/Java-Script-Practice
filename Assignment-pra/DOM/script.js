@@ -125,27 +125,108 @@
 //         student(obj)
 
 // Excersice no.1 ADD KEYS AND VALUE AND CHANGE VALUES OF KEY IN OBJECT
-const mypet = {
-    name : 'sudo',
-    type : 'dog',
-    breed : 'poodle',
-    age : 7,
-    friends : ['bit','byte','data'],
-};
-function ani(mypet){
-    console.log(mypet);
+// const mypet = {
+//     name : 'sudo',
+//     type : 'dog',
+//     breed : 'poodle',
+//     age : 7,
+//     friends : ['bit','byte','data'],
+// };
+// function ani(mypet){
+//     console.log(mypet);
 
-    // mypet["color"] = 'black'
-    mypet.color = 'black';
+//     // mypet["color"] = 'black'
+//     mypet.color = 'black';
 
-    mypet.breed = 'beagle';
+//     mypet.breed = 'beagle';
 
-    mypet.friends.pop();
+//     mypet.friends.pop();
 
-    console.log(mypet);
+//     console.log(mypet);
 
-    mypet.friends.push('chip');
+//     mypet.friends.push('chip');
 
-    console.log(mypet)
-}
-ani(mypet)
+//     console.log(mypet)
+// }
+// ani(mypet);
+
+// OBJECT EXCERSICE no2
+// const banana = {
+//     name : 'banana',
+//     quality : 1,
+//     price : 1.95
+// };
+// const apple = {
+//     name : 'appale',
+//     quality : 1,
+//     price : 1.45
+// };
+// const candy = {
+//     name : 'candy',
+//     quality : 1,
+//     price : 3.50
+// };
+
+// const store = {
+//     storeNumber : 5,
+//     locationCity : 'milan',
+//     products : [banana,apple,candy]
+// };
+
+// function market(store){
+//     console.log(store);
+//     // only print out all the product objects in "store"
+//     // console.log(store.products[0]);
+//     // console.log(store.products[2]);
+//     // console.log(store.products[2]);
+//     for(let i = 0;i < store.products.length;i++){
+//         // console.log(store.products[i])
+//     };
+    
+//     // only print out the 3rd product object in store;
+//     // console.log(store.products[2]);
+
+//     // change the price of banana object through the store object to be 1.75..
+//     // store.products[0].price = 1.75;
+//     // console.log(store);
+//     // console.log(banana);
+
+//     // change the price of candy directly to be 4.99..
+//     store.products[2].price = 4.99;
+//     console.log(store);
+//     console.log(candy)
+
+// }
+// market(store);
+
+// OBJECT EXCERSICE no3
+// const houseforsale = {
+//     area : 940,
+//     value : 320000,
+//     streetname : 'fifth street',
+//     build : 2012,
+//     owner : {name:'blake', age :29},
+//     offers : [290000,295000,315000,312000]
+// };
+// function property(houseforsale){
+//     console.log(houseforsale);
+
+//     // delete the property with key "built".
+//     delete houseforsale.build
+//     // console.log(houseforsale);
+
+//     // change the age of the owner to be 30 inside "houseforsale"..
+//     houseforsale.owner.age = 30;
+//     console.log(houseforsale);
+
+//     // print the maximum offer price (use reduce)
+//     const maxprice = houseforsale.offers.reduce((max,price)=>{
+//         if(max < price){
+//             return price;
+//         } return max
+//     },0)
+//     console.log(maxprice);
+//     houseforsale.saleprice = 312000
+//     console.log(houseforsale)
+// }
+// property(houseforsale)
