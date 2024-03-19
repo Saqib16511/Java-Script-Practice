@@ -123,3 +123,29 @@
 //             console.log(obj)
 //         }
 //         student(obj)
+
+// Excersice no.1 ADD KEYS AND VALUE AND CHANGE VALUES OF KEY IN OBJECT
+const mypet = {
+    name : 'sudo',
+    type : 'dog',
+    breed : 'poodle',
+    age : 7,
+    friends : ['bit','byte','data'],
+};
+function ani(mypet){
+    console.log(mypet);
+
+    // mypet["color"] = 'black'
+    mypet.color = 'black';
+
+    mypet.breed = 'beagle';
+
+    mypet.friends.pop();
+
+    console.log(mypet);
+
+    mypet.friends.push('chip');
+
+    console.log(mypet)
+}
+ani(mypet)
