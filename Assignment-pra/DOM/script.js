@@ -454,3 +454,41 @@
 
 // console.log(map1.delete('laptop'));
 
+//  MAP EXCERCiSE
+// const maxico = new Map();
+// maxico.set('id',24);
+// maxico.set('capital', 'Mexico City',);
+// maxico.set('neighbours', ["USA","Guatemala","Belize"]);
+
+// console.log(maxico);
+
+// // change the ID
+// maxico.set('id',25)
+
+// maxico.get("neighbours").push("islamabad");
+// console.log(maxico);
+
+
+// myPet = new Map();
+// myPet.set('name', 'sudo');
+// myPet.set('type','dog');
+// myPet.set('breed','poodle');
+// myPet.set('age','7');
+// myPet.set('friends',['bit','bytes','data']);
+
+// console.log(myPet);
+
+// myPet.set('color','black');
+
+// myPet.set('breed','beagle');
+
+// myPet.get('friends').pop();
+
+// myPet.get('friends').push('chip');
+// console.log(myPet);
+
+
+
+
+
+
