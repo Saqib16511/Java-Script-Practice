@@ -211,11 +211,11 @@
 // function property(houseforsale){
 //     console.log(houseforsale);
 
-    // delete the property with key "built".
-    // delete houseforsale.build
-    // console.log(houseforsale);
+//     // delete the property with key "built".
+//     delete houseforsale.build
+//     console.log(houseforsale);
 
-    // change the age of the owner to be 30 inside "houseforsale"..
+//     // change the age of the owner to be 30 inside "houseforsale"..
 //     houseforsale.owner.age = 30;
 //     console.log(houseforsale);
 
@@ -231,7 +231,7 @@
 // }
 // property(houseforsale);
 
-// // CONSOLE IS AN OBJECT
+// CONSOLE IS AN OBJECT
 // const myconsole = {
 //     log : (message)=>{
 //         console.log(message)
@@ -454,7 +454,7 @@
 
 // console.log(map1.delete('laptop'));
 
-//  MAP EXCERCiSE
+//  MAP EXCERCiSE 01
 // const maxico = new Map();
 // maxico.set('id',24);
 // maxico.set('capital', 'Mexico City',);
@@ -468,7 +468,7 @@
 // maxico.get("neighbours").push("islamabad");
 // console.log(maxico);
 
-
+// MAP EXCERCiSE 02
 // myPet = new Map();
 // myPet.set('name', 'sudo');
 // myPet.set('type','dog');
@@ -486,6 +486,57 @@
 
 // myPet.get('friends').push('chip');
 // console.log(myPet);
+
+// MAP EXCERCiSE 03
+// const banana = {name :'banana',quality : 1, price : 1.95};
+// const apple = {name :'apple',quality : 1, price : 1.45};
+// const candy = {name :'candy',quality : 1, price : 3.50};
+
+// const store = new Map();
+// store.set('storeNumber',5);
+// store.set('locationCity','Milan');
+// store.set('locationCountry','Italy');
+// store.set('products',[banana,apple,candy]);
+
+// console.log(store);
+
+// console.log(store.get('products'));
+
+// console.log(store.get("products")[2]);
+
+// store.get("products")[0].price = 1.75;
+
+// console.log(store);
+// console.log(banana);
+
+// // store.get('products')[2].price = 4.99;
+// candy.price = 3.55;
+// console.log(store);
+
+// MAP EXCERCiSE 04
+const houseforsale = new Map();
+houseforsale.set('area',940);
+houseforsale.set('value',320000);
+houseforsale.set('streetName','fifth street');
+houseforsale.set('built',2012);
+houseforsale.set('owner',{name:'black',age:29});
+houseforsale.set('offers',[290000,295000,315000,312000]);
+
+console.log(houseforsale);
+
+houseforsale.delete('built');
+
+houseforsale.get('owner').age = 30;
+
+const maxprice =[290000,295000,315000,312000].reduce((max,price)=>{
+    if(max < price){
+        return price;
+    } return max
+},0)
+console.log(maxprice);
+
+houseforsale.set('sale price',312000);
+console.log(houseforsale);
 
 
 
