@@ -482,13 +482,13 @@
 
 // myPet.set('breed','beagle');
 
-// myPet.get('friends').pop();
+// myPet.get('fbananriends').pop();
 
 // myPet.get('friends').push('chip');
 // console.log(myPet);
 
 // MAP EXCERCiSE 03
-// const banana = {name :'banana',quality : 1, price : 1.95};
+// const a = {name :'banana',quality : 1, price : 1.95};
 // const apple = {name :'apple',quality : 1, price : 1.45};
 // const candy = {name :'candy',quality : 1, price : 3.50};
 
@@ -576,23 +576,23 @@ const companies =   [{name : 'company one', category: 'finance', start:1980, end
                     console.log(companies)
                 });
 
-            // const canDrink = [];
-            // for(let i = 0;i < ages.length;i++){
-            //     if(ages[i] >= 18){
-            //         canDrink.push(ages[i])
-            //     }
-            // };
+            const canDrink = [];
+            for(let i = 0;i < ages.length;i++){
+                if(ages[i] >= 18){
+                    canDrink.push(ages[i])
+                }
+            };
 
-            const canDrink = ages.filter(ages => ages >= 21)
-            console.log(canDrink);
+            const doDrink = ages.filter(ages => ages >= 21)
+            console.log(doDrink);
 
-            // const autocompany = companies.filter(function(companies){
-            //     if(companies.category == 'auto'){
-            //         return true
-            //     }
-            // })
-            const autocompany = companies.filter(companies => companies.category == 'auto')
-            console.log(autocompany);
+            const autocompany = companies.filter(function(companies){
+                if(companies.category == 'auto'){
+                    return true
+                }
+            })
+            const autucompany = companies.filter(companies => companies.category == 'auto')
+            console.log(autucompany);
 
             // get 80s companies 
             const undereighty = companies.filter(company=>(company.start >= 1980 && company.start <= 1990))
@@ -607,8 +607,9 @@ const companies =   [{name : 'company one', category: 'finance', start:1980, end
                 const companyname = companies.map((companies)=>{
                     return companies.name
                 })
-                console.log(companyname)
+                console.log(companyname);
 
+                
                 const companystartend = companies.map(company=> `${company.name} (${company.start} - ${company.end})`);
                 console.log(companystartend);
                 // ages squire root
@@ -618,7 +619,26 @@ const companies =   [{name : 'company one', category: 'finance', start:1980, end
                 const agesmultiply = ages.map(ages=>ages * 2);
                 console.log(agesmultiply);
                 const agesmulsqu = ages
-                                    .map(ages => Math.sqrt(ages))
+                .map(ages => Math.sqrt(ages))
                                     .map(ages => ages * 2)
                                     console.log(agesmulsqu)
+                                    
+                                    
+                // sorting
+                // sorting ages
+                const agessort = ages.sort();
+                console.log(agessort); 
 
+                // sort company by end year
+                const sortstarttime = companies.sort((a,b) => a.end > b.end ? 1 : -1);
+                console.log(sortstarttime);
+
+                // reduce 
+                let sumages = 0;
+                for(let i = 0;i < ages.length;i++){
+                    sumages += ages[i]
+                };
+                console.log(sumages);
+
+                const pra = ages.reduce((a,b)=> a < b ? a : b);
+                console.log(pra)
