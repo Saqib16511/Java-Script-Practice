@@ -1075,30 +1075,44 @@
     // // };    
 
 //   OBJECT VALUES FIND BY KEYS
-    let dict ={ "key1" : "value1",
-                "key2" : "value2",
-                "key3" : "value3",
-                "saqib" : "shah"
+    // let dict ={ "key1" : "value1",
+    //             "key2" : "value2",
+    //             "key3" : "value3",
+    //             "saqib" : "shah"
 
-            };
-            let form = document.querySelector("form")
-            let input = document.getElementById("input");
-            let btn = document.getElementById("btn");
+    //         };
+    //         let form = document.querySelector("form")
+    //         let input = document.getElementById("input");
+    //         let btn = document.getElementById("btn");
            
-            form.onsubmit = (e)=>{
-                e.preventDefault()
-               let i = " "
-               i = input.value
-                for(key in dict){
-                    if(i == key){
-                        console.log(dict[key])
-                        break;
-                    }
-                }
-                if(i !== key){
-                    alert('ERROR')
+    //         form.onsubmit = (e)=>{
+    //             e.preventDefault()
+    //            let i = input.value
+    //             for(key in dict){
+    //                 if(i == key){
+    //                     console.log(dict[key])
+    //                     break;
+    //                 }
+    //             }
+    //             if(i !== key){
+    //                 alert('ERROR')
                       
-                }
-            }
+    //             }
+    //         }
                
                 
+// const info = {
+//     Name : 'Akbar',
+//     Age : 23,
+//     Height : 5.7
+// };
+// let btn = document.querySelector('button');
+// let table = document.querySelector("table");
+// btn.onclick = (e)=>{
+//     e.preventDefault()
+//     for(i in info){
+//         let tr = document.createElement('tr')
+//         tr.innerHTML = `<td>${[i]}</td><td>${info[i]}</td>`
+//         table.appendChild(tr)
+//     }
+// }
