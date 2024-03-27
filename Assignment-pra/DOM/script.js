@@ -652,4 +652,17 @@
                 // hello()
                 // let hello = ()=> console.log('hello')
                 // hello()
-                
+            
+
+            // SETTIMEOUT AND SETINTERVAL
+                let run = 0;
+                let count = 0;
+                let watch = function(){
+                    console.log('hello');
+                    count++;
+                    if(count > 5){
+                        clearInterval(run)
+                        console.log('welcome')
+                    }
+                } 
+                run = setInterval(watch,1000);
