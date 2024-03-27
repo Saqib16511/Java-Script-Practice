@@ -655,14 +655,57 @@
             
 
             // SETTIMEOUT AND SETINTERVAL
-                let run = 0;
-                let count = 0;
-                let watch = function(){
-                    console.log('hello');
-                    count++;
-                    if(count > 5){
-                        clearInterval(run)
-                        console.log('welcome')
-                    }
-                } 
-                run = setInterval(watch,1000);
+                // let run = 0;
+                // let count = 0;
+                // let watch = function(){
+                //     console.log('hello');
+                //     count++;
+                //     if(count > 5){
+                //         clearInterval(run)
+                //         console.log('welcome')
+                //     }
+                // } 
+                // run = setInterval(watch,1000);
+
+                // let btn  = document.getElementById("btn");
+                
+                // btn.onclick = ()=>{
+                    //     setTimeout(()=>{
+                        //         body.style.background  = 'red';
+                        //     },2000)
+                        // };
+                        
+                let div = document.getElementById("div");
+                let btn = document.querySelector( "btn" );
+                let hour = document.getElementById("hour");
+                let mint = document.getElementById("mint");
+                let sec = document.getElementById("sec");
+
+
+                // let  i = 0;
+                const arr = [1,2,3,4,5];
+                let fun = ()=>{
+                    setInterval(()=>{
+                      let date = new Date();
+                      
+                      isec = date.getSeconds()
+                      sec.innerHTML = isec
+                      if(sec.innerHTML < 10){
+                        sec.innerHTML = "0"+ isec
+                      }
+                },1000);
+                setInterval(()=>{
+                    let date = new Date();
+                    jhr = date.getHours()
+                    hour.innerHTML = jhr < 10 ? "0"+ jhr : jhr;
+
+                },1000);
+                setInterval(() => {
+                    let date = new Date();
+                    kmin = date.getMinutes();
+                    mint.innerHTML = kmin < 10 ? "0"+ kmin : kmin;
+
+                }, 1000);
+            }
+            fun()
+                
