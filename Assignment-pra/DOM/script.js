@@ -562,83 +562,94 @@
 // console.log(seennumbers);
 
 
-const companies =   [{name : 'company one', category: 'finance', start:1980, end: 2012},
-                    {name : 'company two', category: 'technology', start:1985, end: 2008},
-                    {name : 'company three', category: 'auto', start:1993, end: 2014},
-                    {name : 'company four', category: 'retail', start:1982, end: 2015},
-                    {name : 'company five', category: 'auto', start:1987, end: 2023},
-                    {name : 'company six', category: 'finance', start:1992, end: 2017},
-                    {name : 'company seven', category: 'technology', start:1988, end: 2016}];
+// const companies =   [{name : 'company one', category: 'finance', start:1980, end: 2012},
+//                     {name : 'company two', category: 'technology', start:1985, end: 2008},
+//                     {name : 'company three', category: 'auto', start:1993, end: 2014},
+//                     {name : 'company four', category: 'retail', start:1982, end: 2015},
+//                     {name : 'company five', category: 'auto', start:1987, end: 2023},
+//                     {name : 'company six', category: 'finance', start:1992, end: 2017},
+//                     {name : 'company seven', category: 'technology', start:1988, end: 2016}];
 
-                const ages = [33,12,20,16,5,54,21,44,61,13,15,45,25,64,32];
+//                 const ages = [33,12,20,16,5,54,21,44,61,13,15,45,25,64,32];
 
-                companies.forEach(function(companies){
-                    console.log(companies)
-                });
+//                 companies.forEach(function(companies){
+//                     console.log(companies)
+//                 });
 
-            const canDrink = [];
-            for(let i = 0;i < ages.length;i++){
-                if(ages[i] >= 18){
-                    canDrink.push(ages[i])
-                }
-            };
+//             const canDrink = [];
+//             for(let i = 0;i < ages.length;i++){
+//                 if(ages[i] >= 18){
+//                     canDrink.push(ages[i])
+//                 }
+//             };
 
-            const doDrink = ages.filter(ages => ages >= 21)
-            console.log(doDrink);
+//             const doDrink = ages.filter(ages => ages >= 21)
+//             console.log(doDrink);
 
-            const autocompany = companies.filter(function(companies){
-                if(companies.category == 'auto'){
-                    return true
-                }
-            })
-            const autucompany = companies.filter(companies => companies.category == 'auto')
-            console.log(autucompany);
+//             const autocompany = companies.filter(function(companies){
+//                 if(companies.category == 'auto'){
+//                     return true
+//                 }
+//             })
+//             const autucompany = companies.filter(companies => companies.category == 'auto')
+//             console.log(autucompany);
 
-            // get 80s companies 
-            const undereighty = companies.filter(company=>(company.start >= 1980 && company.start <= 1990))
-                console.log(undereighty)
+//             // get 80s companies 
+//             const undereighty = companies.filter(company=>(company.start >= 1980 && company.start <= 1990))
+//                 console.log(undereighty)
             
-                // get companies that lasted 10 years or more
-            const lasttenyear = companies.filter(company =>(company.end >=2010 && company.end <= 2020))
-                console.log(lasttenyear)
+//                 // get companies that lasted 10 years or more
+//             const lasttenyear = companies.filter(company =>(company.end >=2010 && company.end <= 2020))
+//                 console.log(lasttenyear)
 
-                // map 
-                // create array of company names
-                const companyname = companies.map((companies)=>{
-                    return companies.name
-                })
-                console.log(companyname);
+//                 // map 
+//                 // create array of company names
+//                 const companyname = companies.map((companies)=>{
+//                     return companies.name
+//                 })
+//                 console.log(companyname);
 
                 
-                const companystartend = companies.map(company=> `${company.name} (${company.start} - ${company.end})`);
-                console.log(companystartend);
-                // ages squire root
-                const agessquare = ages.map(ages=> Math.sqrt(ages))
-                console.log(agessquare);
-                // ages multiply
-                const agesmultiply = ages.map(ages=>ages * 2);
-                console.log(agesmultiply);
-                const agesmulsqu = ages
-                .map(ages => Math.sqrt(ages))
-                                    .map(ages => ages * 2)
-                                    console.log(agesmulsqu)
+//                 const companystartend = companies.map(company=> `${company.name} (${company.start} - ${company.end})`);
+//                 console.log(companystartend);
+//                 // ages squire root
+//                 const agessquare = ages.map(ages=> Math.sqrt(ages))
+//                 console.log(agessquare);
+//                 // ages multiply
+//                 const agesmultiply = ages.map(ages=>ages * 2);
+//                 console.log(agesmultiply);
+//                 const agesmulsqu = ages
+//                 .map(ages => Math.sqrt(ages))
+//                                     .map(ages => ages * 2)
+//                                     console.log(agesmulsqu)
                                     
                                     
-                // sorting
-                // sorting ages
-                const agessort = ages.sort();
-                console.log(agessort); 
+//                 // sorting
+//                 // sorting ages
+//                 const agessort = ages.sort();
+//                 console.log(agessort); 
 
-                // sort company by end year
-                const sortstarttime = companies.sort((a,b) => a.end > b.end ? 1 : -1);
-                console.log(sortstarttime);
+//                 // sort company by end year
+//                 const sortstarttime = companies.sort((a,b) => a.end > b.end ? 1 : -1);
+//                 console.log(sortstarttime);
 
-                // reduce 
-                let sumages = 0;
-                for(let i = 0;i < ages.length;i++){
-                    sumages += ages[i]
-                };
-                console.log(sumages);
+//                 // reduce 
+//                 let sumages = 0;
+//                 for(let i = 0;i < ages.length;i++){
+//                     sumages += ages[i]
+//                 };
+//                 console.log(sumages);
 
-                const pra = ages.reduce((a,b)=> a < b ? a : b);
-                console.log(pra)
+                // const pra = ages.reduce((a,b)=> a < b ? a : b);
+                // console.log(pra);
+
+            // FUNCTION Declaration
+                // function hello(){
+                //     console.log('hello')
+                // };
+                // hello();
+            // FUNCTION EXPRESSION
+                // hello()
+                // let hello = ()=> console.log('hello')
+                // hello()
+                
