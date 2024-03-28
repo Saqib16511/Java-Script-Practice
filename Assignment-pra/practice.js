@@ -1116,3 +1116,9 @@
 //         table.appendChild(tr)
 //     }
 // }
+
+
+// a = 2;
+// b = 6;
+// a = b + 5;
+// console.log(a)
